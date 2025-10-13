@@ -11,39 +11,39 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-             /*int a = 3; int b = 7;
-             Console.WriteLine(a + b);
-             Console.WriteLine(a - b);
+            /*int a = 3; int b = 7;
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
 
-             double c = 3.1415;
-             Console.WriteLine(c + a);
-             Console.WriteLine(c * a);
+            double c = 3.1415;
+            Console.WriteLine(c + a);
+            Console.WriteLine(c * a);
 
-             string name = "pencho";
-             Console.WriteLine(name);
+            string name = "pencho";
+            Console.WriteLine(name);
 
-             float d = 2.51f;
+            float d = 2.51f;
 
-             // double + double
-             Console.WriteLine(d + c);
+            // double + double
+            Console.WriteLine(d + c);
 
-             //float * int
-             Console.WriteLine(d * 2);
-             // float * (flaot)cast
-             Console.WriteLine(d * (float)2);
-             // float * float
-             Console.WriteLine (d * 2f);
+            //float * int
+            Console.WriteLine(d * 2);
+            // float * (flaot)cast
+            Console.WriteLine(d * (float)2);
+            // float * float
+            Console.WriteLine (d * 2f);
 
-             float neshto = 5.1234f;
+            float neshto = 5.1234f;
 
-             //Example:
-             int number = 5;
+            //Example:
+            int number = 5;
 
-             String text = Console.ReadLine();
+            String text = Console.ReadLine();
 
-             Console.WriteLine(text);*/
-           
-            double number1 = 0; double number2 = 0;
+            Console.WriteLine(text);*/
+
+            /*double number1 = 0; double number2 = 0;
             
             string input = Console.ReadLine();
             number1 = double.Parse(input);
@@ -62,12 +62,44 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Negative");
             }
-
+            */
             /*Console.WriteLine(q + e);
             Console.WriteLine(q * e);
             Console.WriteLine(q - e);
             Console.WriteLine(q / e);   
             */
+
+            //REVIEW TASKS//
+            /* string reviewtasks = Console.ReadLine();
+             double num = double.Parse(reviewtasks);
+             Console.WriteLine(num);
+
+
+             string reviewtasks2 = Console.ReadLine();
+             double number = double.Parse(reviewtasks2);
+             Console.WriteLine(number);
+             Console.ReadLine();*/
+
+            string data = Console.ReadLine();
+            double num = double.Parse(data);
+
+            //string data2 = Console.ReadLine();
+            //double num2 = double.Parse(data2); (tova i dolnotavurshat edna i sushta rabota)
+            data = Console.ReadLine();
+            double num2 = double.Parse(data);
+
+            Console.WriteLine("sum: " + (num + num2));
+            Console.WriteLine("sum: " + (num - num2));
+            Console.WriteLine("sum: " + (num * num2));
+            Console.WriteLine("sum: " + (num / num2));
+            Console.WriteLine("sum: " + (num % num2));
+
+            /*Console.WriteLine(data + data2);
+            Console.WriteLine(data - data2);
+            Console.WriteLine(data * data2);  kak bachka (text1) + (text2) = (text1)(text2)
+            Console.WriteLine(data / data2);
+            Console.WriteLine(data % data2);*/
+
         }
     }
 }
