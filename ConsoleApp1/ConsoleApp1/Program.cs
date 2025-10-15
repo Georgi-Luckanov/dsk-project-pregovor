@@ -84,15 +84,25 @@ namespace ConsoleApp1
             double num = double.Parse(data);
 
             //string data2 = Console.ReadLine();
-            //double num2 = double.Parse(data2); (tova i dolnotavurshat edna i sushta rabota)
+            //double num2 = double.Parse(data2); (tova i dolnota vurshat edna i sushta rabota)
             data = Console.ReadLine();
             double num2 = double.Parse(data);
 
             Console.WriteLine("sum: " + (num + num2));
             Console.WriteLine("sum: " + (num - num2));
             Console.WriteLine("sum: " + (num * num2));
-            Console.WriteLine("sum: " + (num / num2));
-            Console.WriteLine("sum: " + (num % num2));
+
+            if (num2 == 0)
+            {
+                ConsoleApp1.WriteLine("Cannot divide by zero");
+            }
+            else
+            {
+                ConsoleApp1.WriteLine("sum: " + (num / num2));
+                ConsoleApp1.WriteLine("sum: " + (num % num2));
+            }
+            ConsoleApp1.WriteLine("Concatenation: " + num + num2);
+
 
             /*Console.WriteLine(data + data2);
             Console.WriteLine(data - data2);
@@ -100,6 +110,18 @@ namespace ConsoleApp1
             Console.WriteLine(data / data2);
             Console.WriteLine(data % data2);*/
 
+
+            //day 5 review task2
+            ConsoleApp1.WriteLine("\n\nDay 5 - Review tasks part 2\n\);
+            double a;
+            Cosnole.WriteLine("Rectangke side");
+            string input = Console.ReadLine();
+            double.Parse(input);
+            double input = parse(a);
+            double b ];
+            Console.WriteLine("Reactangle");
+            input = ConsoleApp1.ReadLine();
+            
         }
     }
 }
