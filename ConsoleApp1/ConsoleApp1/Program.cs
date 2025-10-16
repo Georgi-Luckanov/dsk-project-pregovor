@@ -80,7 +80,7 @@ namespace ConsoleApp1
              Console.WriteLine(number);
              Console.ReadLine();*/
 
-            string data = Console.ReadLine();
+           /* string data = Console.ReadLine();
             double num = double.Parse(data);
 
             //string data2 = Console.ReadLine();
@@ -112,7 +112,7 @@ namespace ConsoleApp1
 
 
             //day 5 review task2
-            ConsoleApp1.WriteLine("\n\nDay 5 - Review tasks part 2\n\);
+           /* ConsoleApp1.WriteLine("\n\nDay 5 - Review tasks part 2\n\);
             double a;
             Cosnole.WriteLine("Rectangke side");
             string input = Console.ReadLine();
@@ -120,8 +120,15 @@ namespace ConsoleApp1
             double input = parse(a);
             double b ];
             Console.WriteLine("Reactangle");
-            input = ConsoleApp1.ReadLine();
-            
+            input = ConsoleApp1.ReadLine();*/
+
+            string B = Console.ReadLine() 
+            double Bnum = double.Parse(B);
+
+            string A = Console.ReadLine()
+            double Anum = double.Parse(A);
+            double perimeter = 2 * (Bnum = Anum);
+            Console.WriteLine(perimeter);
         }
     }
 }
