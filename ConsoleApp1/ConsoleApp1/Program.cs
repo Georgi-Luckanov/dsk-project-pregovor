@@ -122,13 +122,32 @@ namespace ConsoleApp1
             Console.WriteLine("Reactangle");
             input = ConsoleApp1.ReadLine();*/
 
-            string B = Console.ReadLine() 
+          /*  string B = Console.ReadLine() 
             double Bnum = double.Parse(B);
 
             string A = Console.ReadLine()
             double Anum = double.Parse(A);
             double perimeter = 2 * (Bnum = Anum);
-            Console.WriteLine(perimeter);
+            Console.WriteLine(perimeter);*/
+            //============= Day 7 - review task loop =====================
+           Console.WriteLine("\n\nDay 7 - Loop \n\n");
+            string input = Console.ReadLine();
+            
+            int n = int.Parse(input);
+            int sum = 0;
+            int product = 1;
+            for (int i = 1; i < n; ++i)
+            {
+                sum += i;
+                Console.WriteLine("Sum: " + i.ToString() + " " + sum.ToString());
+                Console.WriteLine("Product: " + i.ToString() + " " + product.ToString());
+            }
+            Console.Write(sum);
+            Console.Write(product);
+            for (int i = 1; i < n; ++i)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
