@@ -147,6 +147,15 @@ namespace ConsoleApp1
             for (int i = 1; i < n; ++i)
             {
                 Console.WriteLine(i);
+                //===============Task 19===========
+                string numTask19 = Console.ReadLine();
+                int nTask19 = int.Parse(numTask19);
+                for (int i = 1; i<= nTask19; i++)
+                {
+                    if ((i % 2 ) == 0))
+                            Cosnole.WriteLine(i);
+                }
+
             }
         }
     }
